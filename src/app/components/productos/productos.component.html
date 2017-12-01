@@ -1,0 +1,11 @@
+<h2>Materiales</h2>
+
+<ul  class="list-group">
+    <li *ngFor="let producto of productos"  class="list-group-item">
+      <a (click)="getMaterial(producto.$key)">{{producto.$key}}</a>
+    </li>
+</ul>
+
+
+
+
